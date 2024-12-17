@@ -8,7 +8,7 @@ namespace Pratik3
             // Kullanıcıdan alınan sayı int olarak dönüştürülür ve ardından sayı, 10 sayısından küçük, büyük veya eşitmi olarak if else yapısı kullanılarak kontrol edilir. 
             
             Console.Write("Lüften bir sayı giriniz: ");
-            int sayi = Convert.ToInt32(Console.Read());
+            int sayi = Convert.ToInt32(Console.ReadLine());
 
             if (sayi == 10)
             {
